@@ -1,0 +1,19 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/dylvaz/chatcord.git",
+  "author": "dylvaz <vazquezadylan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
